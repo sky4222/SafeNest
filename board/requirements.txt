@@ -1,0 +1,4 @@
+numpy
+scipy
+paho-mqtt==2.1.0
+# PYNQ is supplied by the PYNQ-Z2 image; do not pip-upgrade the board environment blindly.

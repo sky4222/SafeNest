@@ -1,0 +1,94 @@
+{
+  "source": "safenest_best_epoch52_valf1_0.8265.ckpt",
+  "source_sha256": "f307ff1f1f7f50e92dda076b5d7335c70eeaff241dd38c69508b03f8f3700ad2",
+  "tensor_count": 24,
+  "shapes": {
+    "block1.conv.weight": [
+      32,
+      1,
+      5,
+      5
+    ],
+    "block1.bn.moving_mean": [
+      32
+    ],
+    "block1.bn.moving_variance": [
+      32
+    ],
+    "block1.bn.gamma": [
+      32
+    ],
+    "block1.bn.beta": [
+      32
+    ],
+    "block2.conv.weight": [
+      64,
+      32,
+      5,
+      5
+    ],
+    "block2.bn.moving_mean": [
+      64
+    ],
+    "block2.bn.moving_variance": [
+      64
+    ],
+    "block2.bn.gamma": [
+      64
+    ],
+    "block2.bn.beta": [
+      64
+    ],
+    "block3.conv.weight": [
+      128,
+      64,
+      3,
+      3
+    ],
+    "block3.bn.moving_mean": [
+      128
+    ],
+    "block3.bn.moving_variance": [
+      128
+    ],
+    "block3.bn.gamma": [
+      128
+    ],
+    "block3.bn.beta": [
+      128
+    ],
+    "block4.conv.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "block4.bn.moving_mean": [
+      128
+    ],
+    "block4.bn.moving_variance": [
+      128
+    ],
+    "block4.bn.gamma": [
+      128
+    ],
+    "block4.bn.beta": [
+      128
+    ],
+    "fc1.weight": [
+      32,
+      128
+    ],
+    "fc1.bias": [
+      32
+    ],
+    "fc2.weight": [
+      4,
+      32
+    ],
+    "fc2.bias": [
+      4
+    ]
+  },
+  "note": "Numeric repack only; no quantization or retraining."
+}

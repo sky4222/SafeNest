@@ -1,0 +1,16 @@
+{
+  "mean": -5.6032579743893605,
+  "std": 5.49144897161318,
+  "fit_on": "train only",
+  "sample_rate": 16000,
+  "clip_samples": 32000,
+  "n_fft": 512,
+  "win_length": 400,
+  "hop_length": 160,
+  "n_mels": 64,
+  "log": "natural",
+  "window": "periodic Hann, centred in FFT",
+  "center": true,
+  "padding": "reflect",
+  "mel": "HTK, no area normalization"
+}

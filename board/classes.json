@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "user_class": 1,
+    "name": "normal_dialogue",
+    "zh": "正常交谈/人群对话声（多语言）",
+    "source_labels": [
+      "Conversation",
+      "Chatter"
+    ]
+  },
+  {
+    "id": 1,
+    "user_class": 2,
+    "name": "impact_drop",
+    "zh": "碰撞或物体跌落冲击声（含关门撞击，不是人体跌倒标签）",
+    "source_labels": [
+      "Thump_and_thud",
+      "Slam"
+    ]
+  },
+  {
+    "id": 2,
+    "user_class": 3,
+    "name": "scream_shout",
+    "zh": "尖叫或喊叫声（含表演、欢呼，不保证为真实呼救）",
+    "source_labels": [
+      "Screaming",
+      "Shout",
+      "Yell"
+    ]
+  },
+  {
+    "id": 3,
+    "user_class": 4,
+    "name": "footsteps",
+    "zh": "走路/脚步声（多种地面和鞋履）",
+    "source_labels": [
+      "Walk_and_footsteps"
+    ]
+  }
+]
