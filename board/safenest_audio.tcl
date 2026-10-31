@@ -797,6 +797,7 @@ proc create_root_design { parentCell } {
   set_property -dict [list \
     CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {10.000} \
     CONFIG.PRIM_IN_FREQ {100.000} \
+    CONFIG.PRIM_SOURCE {No_buffer} \
     CONFIG.RESET_PORT {resetn} \
     CONFIG.RESET_TYPE {ACTIVE_LOW} \
   ] $clk_wiz_10MHz
